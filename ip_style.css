@@ -92,7 +92,7 @@ section:after {
 
 
 hr { 
-    border-width: 10px;
+    border-width: 20px;
 } 
 
 /* Style the footer */
@@ -100,6 +100,8 @@ footer {
     padding: 0.5px;
     text-align: center;
     color: white;
+    position:sticky;
+    bottom:0;
 }
 
 

@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head> 
+  <link rel="stylesheet" href="ip_style.css">
+</head>
+<body>
+
+<header>
+  <h2>IP</h2>
+</header>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#ncomputer">Computer</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+    <li style="float:right"><a href="#about">About</a></li>
+  </li>
+</ul>
+
+<section>
+  <nav>
+   
+  </nav>
+  
+  <article>
+    <h1><b>LOGIN</b> </h1>
+    <p>USERNAME<input type="text" name="username" size="20" maxlength="20"></p>
+    <p>PASSWORD<input type="password" name="pswd" size="20"></p>
+    <input type="submit" name="sbmt" submit>
+  </article>
+</section>
+
+<hr>
+
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
