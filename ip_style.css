@@ -100,6 +100,11 @@ footer {
     padding: 0.5px;
     text-align: center;
     color: white;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: blue;
 }
 
 
