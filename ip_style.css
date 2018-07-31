@@ -91,17 +91,28 @@ section:after {
 }
 
 
+<<<<<<< HEAD
 hr { 
     border-width: 20px;
 } 
+=======
+>>>>>>> aca4c82f0363a8d97e04db150595ac1b3e9aa113
 
 /* Style the footer */
 footer {
     padding: 0.5px;
     text-align: center;
     color: white;
+<<<<<<< HEAD
     position:sticky;
     bottom:0;
+=======
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: blue;
+>>>>>>> aca4c82f0363a8d97e04db150595ac1b3e9aa113
 }
 
 
