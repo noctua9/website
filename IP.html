@@ -27,8 +27,8 @@
       <a href="#">Harddisk</a>
     </div>
     <li style="float:right"><a href="#about">About</a></li>
-    <li style="float:right"><a href="/home/research/Desktop/website-master/login.html">login</a></li>
-	<li style="float:right"><a href="/home/research/Desktop/website-master/signup.html">signup</a></li>    
+    <li style="float:right"><a href="login.html">login</a></li>
+	<li style="float:right"><a href="signup.html">signup</a></li>    
     <li><div class="search-container">
     <form action="/action_page.php">
       <input type="text" placeholder="Search.." name="search">
@@ -38,9 +38,28 @@
 </ul>
 <br>
 <section>
- <img src="ls.jpg" alt="Trulli" width="350" height="333">
-<img  src="ls.jpg" alt="Trulli" width="350" height="333">
-<img src="ls.jpg" alt="Trulli" width="350" height="333">
+ <div class="auto" style="max-width:100%" style="max-height: 0.1%">
+ <img class="mySlides" src="ls.jpg" style="width:100%">
+  <img class="mySlides" src="bg.jpg" style="width:100%">
+  <img class="mySlides" src="3.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
 </section>
 
 <hr>

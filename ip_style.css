@@ -3,8 +3,8 @@
 }
 
 body {
-	background-image: url("bg.jpg");
-  background-size: cover;
+	background-image: url("3.jpg");
+  background-size: contain;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -119,3 +119,4 @@ footer {
 
 
 
+auto{margin:inherit;}
