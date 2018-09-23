@@ -8,7 +8,7 @@
 <header>
 <div class="header">
 	<img class="iv" src="icon1.jpg" alt="logo" style="float:left;width:100px;height:100px;">
-  <h4>ONE CLICK COMPUTERS</h4>
+  <h3>ONE CLICK COMPUTERS</h3>
   </div>
 </header>
 
@@ -30,13 +30,18 @@
     </div>
     <li style="float:right"><a href="#about">About</a></li>
     <li style="float:right"><a href="login.html">login</a></li>
-	<li style="float:right"><a href="signup.html">signup</a></li>    
-    <li><div class="search-container">
-    <form action="/action_page.php">
-      <input type="text" placeholder="Search.." name="search">
-      <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
-  </div></li>
+	<li style="float:right"><a href="signup.html">signup</a></li> 
+	
+	
+	<div id="tfheader">
+		<form id="tfnewsearch" method="get" action="http://www.google.com">
+		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+		</form>
+	<div class="tfclear"></div>
+	</div>
+	
+	
+	   
 </ul>
 <br>
 <section>
@@ -46,19 +51,16 @@
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
   <img src="pc.png" style="width:100vh" class="center">
   <div class="text">COMPUTER</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
   <img src="mb.png" style="width:100%">
   <div class="text">MOTHER BOARD</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
   <img src="ram.jpg" style="width:100%">
   <div class="text">RAM</div>
 </div>
@@ -94,6 +96,11 @@ function showSlides() {
 }
 </script>
 </section>
+
+<div class="arrows prev"></div>
+<div class="arrows next"></div>
+
+
 <p>def</p>
 <p>def</p>
 <p>def</p>
