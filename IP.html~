@@ -6,8 +6,10 @@
 <body>
 
 <header>
-	<img src="ls.jpg" alt="logo" style="float:left;width:100px;height:100px;">
-  <h2>ONE CLICK COMPUTERS</h2>
+<div class="header">
+	<img class="iv" src="icon1.jpg" alt="logo" style="float:left;width:100px;height:100px;">
+  <h4>ONE CLICK COMPUTERS</h4>
+  </div>
 </header>
 
 <ul>
@@ -38,36 +40,79 @@
 </ul>
 <br>
 <section>
- <div class="auto" style="max-width:100%" style="max-height: 0.1%">
- <img class="mySlides" src="ls.jpg" style="width:100%">
-  <img class="mySlides" src="bg.jpg" style="width:100%">
-  <img class="mySlides" src="3.jpg" style="width:100%">
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="pc.png" style="width:100vh" class="center">
+  <div class="text">COMPUTER</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="mb.png" style="width:100%">
+  <div class="text">MOTHER BOARD</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="ram.jpg" style="width:100%">
+  <div class="text">RAM</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
 </div>
 
 <script>
-var myIndex = 0;
-carousel();
+var slideIndex = 0;
+showSlides();
 
-function carousel() {
+function showSlides() {
     var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
     }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2000); // Change image every 2 seconds
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 </script>
 </section>
+<p>def</p>
+<p>def</p>
+<p>def</p>
+<p>def</p>
+<p>def</p>
+<p>def</p>
+<p>def</p>
+<p>def</p>
+<p>def</p>
+<p>def</p>
+<p>def</p>
+<p>def</p>
 
-<hr>
 
 
 <footer>
+<div class="footer">
   <p>Footer</p>
-</footer>
+</div>
 
 </body>
 </html>
