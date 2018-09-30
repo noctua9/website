@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background-image: url("3.jpg");
+}
+</style>
+</head>
+<h1><p><font color="red">ONE CLICK COMPUTERS</p></font></h1>
+<h4><p><font color="red">Our company hasthe best deals ever.We sell different types of computer parts.Our services are quick.</p></font></h4>
+<h4><p><font color="red">Our website is secured and also the data entered by customers is also secured properly.</p></font></h4>
+<h4><p><font color="red">We are dealing  since 2000 and many customers are satisfied by our service.</p></font></h4>
+<section>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="pc.png" style="width:100vh" class="center">
+  <div class="text">COMPUTER</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="mb.png" style="width:100%">
+  <div class="text">MOTHER BOARD</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="ram.jpg" style="width:100%">
+  <div class="text">RAM</div>
+</div>
+<div class="mySlides fade">
+  <img src="nmouse.jpg" style="width:50%">
+  <div class="text">MOUSE</div>
+</div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</section>
+<h5><p><font color="red">Contact No:+91 9866774421
+    Email     : oneclickcomputers@gmail.company
+	Website   :http://www.oneclickcomputers.company
+	</p></font></h5>
+	<h5><p><font color="red">You can also follow us on facebook and instagram</p></font></h5>
+	<img src="fb.jpg" alt="facebook" class="image" style="width:100px;height:100px;">
+	<img src="insta.jpg" alt="instagram" class="image" style="width:100px;height:100px;">
+	
+</html>
