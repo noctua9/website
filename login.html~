@@ -1,26 +1,66 @@
 <!DOCTYPE html>
-<head>
-<title>login</title>
-<link rel="stylesheet" type="text/css" href="style3.css">
-<meta name="viewport" content="width=device-width initial scale=1">
+<html>
+<head> 
+  <link rel="stylesheet" href="ip_style.css">
 </head>
 <body>
+
+<header>
+<div class="header">
+	<img class="iv" src="icon1.jpg" alt="logo" style="float:left;width:100px;height:100px;">
+  <h3>ONE CLICK COMPUTERS</h3>
+  </div>
+</header>
+
+<ul>
+  <li><a href="IP.html">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">EXTERNAL</a>
+    <div class="dropdown-content">
+      <a href="#">Monitor</a>
+      <a href="#">Mouse</a>
+      <a href="#">C.P.U.</a>
+    </div>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">INTERNAL</a>
+    <div class="dropdown-content">
+      <a href="#">Ram</a>
+      <a href="#">Mother Board</a>
+      <a href="#">Harddisk</a>
+    </div>
+    <li style="float:right"><a href="#about">About</a></li>
+    <li style="float:right"><a href="login.html">login</a></li>
+	<li style="float:right"><a href="signup.html">signup</a></li>    
+   
+   
+	<div id="tfheader">
+		<form id="tfnewsearch" method="get" action="http://www.google.com">
+		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+		</form>
+	<div class="tfclear"></div>
+	</div>   
+   
+   
+</ul>
+<br>
 	<div class="box">
 	    <fieldset>
 		<legend><h2>Login</h2></legend>	
 		<form>	
-		<div class="in-box">
+		<div class="in-box" style="text-align:center">
 		<b>Email:</b><input type="text" name="Email" value="" required="required"/>
-				
 		</div>
-		<div class="in-box">
+		<div class="in-box" style="text-align:center">
 			<b>Password:</b><input type="password" name="pass" value="" required="required"/>		
 		</div>
+		<div style="text-align:center" >	
 		<input type="submit" name="" value="submit"/>
+		</div>
 		<div style="text-align:center" >		
+		
 		<br><br>
 		
-		<a href="signups.html" text-decoration: "none" style="color:black" class="btn"><b>Sign up</b></a><br><br>
+		<a href="signup.html" text-decoration: "none" style="color:black" class="btn"><b>Sign up</b></a><br><br>
     
    
       <a href="#" style="color:black" class="btn"><b>Forgot password?</b></a>
@@ -29,4 +69,63 @@
 		</fieldset>
 		</form>	
 	</div>
+
+
+
+
+<h2>BEST DEALS</h2>
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="icon.jpg" alt="Mountains" style="width:100%">
+      <h3>My Work</h3>
+      <p>prize</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="icon.jpg" alt="Lights" style="width:100%">
+      <h3>My Work</h3>
+      <p>prize</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="icon.jpg" alt="Nature" style="width:100%">
+      <h3>My Work</h3>
+      <p>prize</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="icon.jpg" alt="Mountains" style="width:100%">
+      <h3>My Work</h3>
+      <p>prize</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="/w3images/p3.jpg" alt="image" style="width:100%">
+  <h3>Some Other Work</h3>
+  <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+  <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+
+
+
+
+
+<footer>
+<div class="footer">
+  <p>Footer</p>
+</div>
+
 </body>
+</html>
